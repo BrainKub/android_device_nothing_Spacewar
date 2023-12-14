@@ -59,7 +59,8 @@ BOARD_KERNEL_CMDLINE := \
     cgroup.memory=nokmem,nosocket \
     pcie_ports=compat \
     iptable_raw.raw_before_defrag=1 \
-    ip6table_raw.raw_before_defrag=1
+    ip6table_raw.raw_before_defrag=1 \
+    androidboot.init_fatal_reboot_target=recovery
 
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_BASE := 0x00000000

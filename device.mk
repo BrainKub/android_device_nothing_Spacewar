@@ -263,6 +263,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     fstab.default \
+    fstab.zram \
     init.kernel.post_boot.sh \
     init.qcom.rc \
     init.qcom.sh \

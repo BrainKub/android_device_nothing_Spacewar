@@ -150,6 +150,9 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     sound_trigger.primary.lahaina
 
+PRODUCT_PACKAGES += \
+    libaudioroute.vendor
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_yupik/audio_policy_configuration.xml \
@@ -389,6 +392,15 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal \
     libsensorndkbridge \
     sensors.nothing
+
+PRODUCT_PACKAGES += \
+    liblz4.vendor \
+    libssl.vendor \
+    libcurl.vendor \
+    libjsoncpp.vendor \
+    libsqlite.vendor \
+    libpng.vendor \
+    libutilscallstack.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf

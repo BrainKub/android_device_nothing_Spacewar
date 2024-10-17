@@ -6,5 +6,9 @@
   {
     "repository": "android_hardware_nothing",
     "target_path": "hardware/nothing"
+  },
+  {
+    "repository": "android_packages_apps_ParanoidGlyph",
+    "target_path": "packages/apps/ParanoidGlyph"
   }
 ]
